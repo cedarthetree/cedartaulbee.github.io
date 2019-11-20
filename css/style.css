@@ -11,19 +11,22 @@ a {
 a:hover { color: #2fced2; }
 
 header, nav, main, footer {
-	width: 80%;
+	width: 35%;
 	margin: auto;
 }
 
 
 /* Header styles */
 header { 
-	background-color: #e59aa6;
+	border-radius: 15px 15px 0px 0px;
+	background-color: #df8998;
 	color: #fff;
 	min-height: 100px;
-	margin-top: 60px;
+	margin-top: 100px;
+	margin-left: 200px;
 	font-family: "Source Code Pro", monospace;
 	opacity: 0.9;
+	text-align: center;
 }
 
 header h1 {
@@ -40,7 +43,9 @@ h2 {
 
 
 /* Nav styles */
-nav { background-color: #e6e7e3; }
+nav { background-color: #e6e7e3;
+margin-left: 200px;
+}
 nav ul { 
 	display: flex;
 	justify-content: flex-end;
@@ -60,6 +65,7 @@ main {
 	background-color: #fff;
 	display: grid;
 	grid-template-columns: 60% 40%;
+	margin-left: 200px;
 }
 
 section {
@@ -82,9 +88,11 @@ aside {
 
 /* Footer styles */
 footer { 
-	background-color: #e59aa6;
+	border-radius: 0px 0px 15px 15px;
+	background-color: #df8998;
 	color: white;
 	text-align: center;
 	opacity: 0.9;
+	margin-left: 200px;
  }
  footer p { padding: 20px; }
