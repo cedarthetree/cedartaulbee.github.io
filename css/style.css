@@ -1,5 +1,5 @@
 body {
-	background: #FAEBD7 url('../images/brickcopy.jpg');
+	background: #ffffff;
 	background-repeat: repeat;
 	background-size: 300px 300px;
 	color: #0077a4;
@@ -13,27 +13,30 @@ a {
 a:hover { color: #2fced2; }
 
 header, nav, main, footer {
-	width: 500px;
+	width: 100%;
 	margin: auto;
 }
 
 
 /* Header styles */
 header { 
-	border-radius: 15px 15px 0px 0px;
-	background-color: #df8998;
+	background-color: #d3762a;
 	color: #fff;
 	min-height: 100px;
-	margin-top: 100px;
-	margin-left: 200px;
-	font-family: "Source Code Pro", monospace;
+font-family: fairplex-narrow, serif;
+
+font-weight: 400;
+
+font-style: normal;
 	text-align: center;
 }
 
 header h1 {
 	padding: 40px 60px;
-	font-family: "Source Code Pro", monospace;
-	font-size: 30px;
+	font-family: fairplex-narrow, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 35px;
 }
 
 h2 {
@@ -44,20 +47,21 @@ h2 {
 
 
 /* Nav styles */
-nav { background-color: #e6e7e3;
-margin-left: 200px;
+nav { background-color: #d3762a;
 }
 nav ul { 
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
+	padding-bottom: 20px;
 }
 
 }
 nav li { padding: 10px 10px; }
-nav a { color: #2fced2; }
-nav a:hover { color: #fff; }
+nav a { color: #fff; 
+	padding: 20px 20px;}
+nav a:hover { color: #ff9f9f; }
 
 
 /* Main styles */
@@ -66,7 +70,6 @@ main {
 	background-color: #fff;
 	display: grid;
 	grid-template-columns: 60% 40%;
-	margin-left: 200px;
 }
 
 section {
@@ -89,10 +92,8 @@ aside {
 
 /* Footer styles */
 footer { 
-	border-radius: 0px 0px 15px 15px;
-	background-color: #df8998;
+	background-color: #d3762a;
 	color: white;
 	text-align: center;
-	margin-left: 200px;
  }
  footer p { padding: 20px; }
